@@ -16,12 +16,6 @@ npm run dev
 
 Ouvre [http://localhost:3000](http://localhost:3000) dans ton navigateur.
 
-### 3. Build pour la production
-```bash
-npm run build
-npm start
-```
-
 ## 📁 Structure du projet
 
 ```
@@ -45,30 +39,3 @@ younes-portfolio/
 ├── next.config.js
 └── package.json
 ```
-
-## 🎨 Personnalisation
-
-### Ajouter ta photo
-Remplace la section `.photoPlaceholder` dans `components/About.js` par :
-```jsx
-<img src="/ta-photo.jpg" alt="Younes Gallouch" className={styles.photo} />
-```
-Et place `ta-photo.jpg` dans le dossier `public/`.
-
-### Modifier les infos
-Toutes les données personnelles sont dans les composants respectifs.
-
-## 🌐 Déploiement
-
-### Vercel (recommandé)
-```bash
-npm install -g vercel
-vercel
-```
-
-### Netlify
-```bash
-npm run build
-# Upload le dossier .next sur Netlify
-```
-# portfolio
