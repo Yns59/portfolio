@@ -1,0 +1,174 @@
+.section {
+  padding: 120px 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inner {}
+
+.header {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  margin-bottom: 64px;
+}
+
+.num {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--accent2);
+  letter-spacing: 2px;
+}
+
+.header h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  letter-spacing: 2px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.card {
+  background: var(--gray);
+  border: 1px solid var(--border);
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s;
+}
+
+.card:hover {
+  border-color: rgba(201, 169, 110, 0.3);
+}
+
+.badge {
+  display: inline-block;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  background: rgba(201, 169, 110, 0.12);
+  border: 1px solid rgba(201, 169, 110, 0.3);
+  color: var(--accent2);
+  margin-bottom: 20px;
+}
+
+.period {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--accent2);
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+
+.school {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.school2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  color: var(--accent2);
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.desc {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.highlights span {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.62rem;
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+.cardAlt {
+  background: var(--black);
+  border-color: var(--border);
+}
+
+/* Langues */
+.cardTitle {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent2);
+  margin-bottom: 28px;
+}
+
+.langsList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.langItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.flag { font-size: 1.5rem; }
+
+.langName {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 2px;
+}
+
+.langLevel {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  letter-spacing: 1px;
+}
+
+/* Passions */
+.passionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.passionItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}
+
+.passionItem span:first-child { font-size: 1.3rem; }
+
+@media (max-width: 768px) {
+  .section { padding: 80px 24px; }
+  .grid { grid-template-columns: 1fr; }
+}
