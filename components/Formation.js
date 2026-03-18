@@ -15,11 +15,11 @@ export default function Formation() {
             <div className={styles.badge}>En cours</div>
             <div className={styles.period}>2025 — 2028</div>
             <h3>Bachelor Informatique</h3>
-            <p className={styles.school}>École Supérieure des Sciences de l'Informatique</p>
+            <p className={styles.school}>École Supérieure des Sciences de l&apos;Informatique</p>
             <p className={styles.school2}>Enigma School</p>
             <p className={styles.desc}>
               Formation intensive couvrant la programmation, la sécurité informatique, 
-              le développement web et mobile, l'IoT, l'IA et la gestion de projet.
+              le développement web et mobile, l&apos;IoT, l&apos;IA et la gestion de projet.
             </p>
             <div className={styles.highlights}>
               <span>Développement Web</span>
