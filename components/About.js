@@ -13,11 +13,11 @@ export default function About() {
           <div className={styles.left}>
             <p className={styles.bio}>
               Actuellement étudiant en Bachelor à Enigma School, je suis passionné par
-              l'informatique dans toutes ses dimensions — développement, sécurité, IoT,
+              l&apos;informatique dans toutes ses dimensions — développement, sécurité, IoT,
               et intelligence artificielle.
             </p>
             <p className={styles.bio}>
-              Je suis à la recherche d'un <strong>stage de 2 mois</strong> pour mettre en pratique
+              Je suis à la recherche d&apos;un <strong>stage de 2 mois</strong> pour mettre en pratique
               mes compétences, découvrir les enjeux du secteur en entreprise, et renforcer
               mon expertise sur le terrain.
             </p>
