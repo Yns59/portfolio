@@ -19,11 +19,11 @@ export default function Experience() {
               </div>
               <h3>Centre Lazar Garreau</h3>
               <p className={styles.desc}>
-                Stage d'initiation au monde professionnel de l'informatique.
+                Stage d&apos;initiation au monde professionnel de l&apos;informatique.
               </p>
               <ul className={styles.tasks}>
                 <li>Résolution de problèmes techniques : identification et correction de dysfonctionnements matériels et logiciels</li>
-                <li>Installation, configuration et mise à jour de systèmes d'exploitation et de logiciels</li>
+                <li>Installation, configuration et mise à jour de systèmes d&apos;exploitation et de logiciels</li>
               </ul>
               <div className={styles.tags}>
                 <span>Support IT</span>
@@ -32,16 +32,6 @@ export default function Experience() {
                 <span>Maintenance</span>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Looking for */}
-        <div className={styles.looking}>
-          <div className={styles.lookingInner}>
-            <div className={styles.lookingTag}>Recherche active</div>
-            <h3>Stage de 2 mois</h3>
-            <p>Je suis à la recherche d'un stage dans le domaine de l'informatique pour mettre en pratique mes compétences et découvrir les enjeux du secteur en entreprise.</p>
-            <a href="#contact" className={styles.btn}>Contactez-moi</a>
           </div>
         </div>
       </div>
